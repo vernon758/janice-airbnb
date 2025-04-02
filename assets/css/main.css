@@ -24138,3 +24138,28 @@ Location:
 }
 
 /*============= GALLERY CSS AREA ===============*//*# sourceMappingURL=main.css.map */
+
+
+
+.blog3-section-area .row:last-child {
+  display: flex;
+  justify-content: center;
+}
+
+.property-img {
+  width: 100%; /* Ensures full width of the container */
+  height: 400px; /* Adjust the height as needed */
+  object-fit: cover; /* Ensures the image scales properly without distortion */
+  border-radius: 10px; /* Optional: adds rounded corners */
+}
+
+.blog-boxarea .img1 {
+  width: 100%;
+  height: 400px; /* Set desired height */
+}
+
+.blog-boxarea .img1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
