@@ -442,52 +442,52 @@ img {
   --ztc-text-text-1: #fff;
   --ztc-text-text-2: #070610;
   --ztc-text-text-3: #6C6C6C;
-  --ztc-text-text-4: #a5a58a;
+  --ztc-text-text-4: #003fb2;
   --ztc-text-text-5: #070615;
   --ztc-text-text-6: #686673;
-  --ztc-text-text-7: #a5a58a;
+  --ztc-text-text-7: #003fb2;
   --ztc-text-text-8: #081511;
   --ztc-text-text-9: #4E5352;
-  --ztc-text-text-10: #a5a58a;
-  --ztc-text-text-11: #DEC678;
-  --ztc-text-text-12: #FB8500;
+  --ztc-text-text-10: #003fb2;
+  --ztc-text-text-11: #003fb2;
+  --ztc-text-text-12: #003fb2;
   --ztc-text-text-13: #413A36;
   --ztc-text-text-14: #565656;
-  --ztc-text-text-15: #c49a6c;
+  --ztc-text-text-15: #003fb2;
   --ztc-text-text-16: #0D0F18;
   --ztc-text-text-17: #100F22;
-  --ztc-text-text-18: #FF7B00;
+  --ztc-text-text-18: #003fb2;
   --ztc-text-text-19: #040908;
-  --ztc-text-text-20: #a5a58a;
+  --ztc-text-text-20: #003fb2;
   --ztc-text-text-21: #060D14;
   --ztc-text-text-22: #0094FF;
   --ztc-text-text-23: #06060F;
-  --ztc-text-text-24: #a5a58d;
+  --ztc-text-text-24: #003fb2;
   --ztc-text-text-25: #070A17;
   --ztc-text-text-26: #696C7A;
-  --ztc-text-text-27: #a5a58d;
+  --ztc-text-text-27: #003fb2;
   --ztc-bg-bg-1: #fff;
-  --ztc-bg-bg-2: #a5a58a;
+  --ztc-bg-bg-2: #003fb2;
   --ztc-bg-bg-3: #F4F9E6;
   --ztc-bg-bg-4: #070610;
   --ztc-bg-bg-5: #070615;
-  --ztc-bg-bg-6: #a5a58a;
+  --ztc-bg-bg-6: #003fb2;
   --ztc-bg-bg-7: #081511;
-  --ztc-bg-bg-8: #a5a58a;
-  --ztc-bg-bg-9: #DEC678;
-  --ztc-bg-bg-10: #a5a58d;
-  --ztc-bg-bg-11: #c49a6c;
+  --ztc-bg-bg-8: #003fb2;
+  --ztc-bg-bg-9: #003fb2;
+  --ztc-bg-bg-10: #003fb2;
+  --ztc-bg-bg-11: #003fb2;
   --ztc-bg-bg-12: #0D0F18;
-  --ztc-bg-bg-13: #FF7B00;
+  --ztc-bg-bg-13: #003fb2;
   --ztc-bg-bg-14: #100F22;
-  --ztc-bg-bg-15: #a5a58a;
+  --ztc-bg-bg-15: #003fb2;
   --ztc-bg-bg-16: #040908;
   --ztc-bg-bg-17: #060D14;
-  --ztc-bg-bg-18: #0094FF;
+  --ztc-bg-bg-18: #003fb2;
   --ztc-bg-bg-19: #06060F;
-  --ztc-bg-bg-20: #a5a58d;
+  --ztc-bg-bg-20: #003fb2;
   --ztc-bg-bg-21: #070A17;
-  --ztc-bg-bg-22: #a5a58d;
+  --ztc-bg-bg-22: #003fb2;
   --ztc-border-border-1: #E5E7EB;
   --ztc-border-border-2: #dfdcdc;
   --ztc-font-size-font-s10: 10px;
@@ -701,7 +701,7 @@ Location:
 }
 
 .header-btn3 {
-  color: var(--ztc-text-text-8);
+  color: #fff;
   font-family: var(--ztc-family-font2);
   font-size: var(--ztc-font-size-font-s16);
   font-style: normal;
@@ -717,8 +717,8 @@ Location:
 }
 .header-btn3:hover {
   transition: all 0.4s;
-  color: var(--ztc-text-text-8);
-  background: var(--ztc-bg-bg-7);
+  color: #FFF;
+  background: #003fb2;
 }
 .header-btn3:hover::after {
   width: 94%;
@@ -734,7 +734,7 @@ Location:
   display: inline-block;
   border-radius: 50%;
   transition: all 0.4s;
-  background: #EBDDB0;
+  background: #c6cace;
   left: 5px;
   top: 5px;
   z-index: -1;
@@ -1088,7 +1088,6 @@ Location:
   letter-spacing: 1.8px;
   text-transform: uppercase;
   border-radius: 40px;
-  background: rgba(163, 192, 82, 0.2);
   padding: 10px 14px;
   display: inline-block;
 }
